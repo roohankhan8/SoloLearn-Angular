@@ -19,11 +19,11 @@ const user = new User();
 user.name = "Troy";
 user.email = "troy@sololearn.com";
 user.age = 25;
-await repository.save(user);
-const results = await repository.find({where: {name: "Troy"}});
-const result = await repository.findOne({where: {name: "Troy"}});
-const myUser = await repository.findOne({where: {name: "Troy"}});
-console.log(result, results, myUser)
+// await repository.save(user);
+// const results = await repository.find({where: {name: "Troy"}});
+// const result = await repository.findOne({where: {name: "Troy"}});
+// const myUser = await repository.findOne({where: {name: "Troy"}});
+// console.log(result, results, myUser)
 // myUser.email = "t@sololearn.com";
 // await repository.save(myUser);
 // const myUser = await repository.findOne({where: {name: "Troy"}});
